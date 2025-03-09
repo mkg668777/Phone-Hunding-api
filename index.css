@@ -1,0 +1,306 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    width:100vw;
+    height:100vh;
+    overflow-x:hidden;
+}
+.wrapper{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+     
+}
+.fullpage{
+    width:100%;
+    height:100%;
+    background-color: rgb(15, 23, 31); 
+   /* position: relative; */
+}
+.heading{
+    width:100%;
+    height:auto;
+    color:#e5e7eb;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+   padding:40px 60px;
+}
+#gadgetsHeading{
+   font-size: 1.5rem;
+   font-weight:bold;
+}
+#signup{
+    width:100px;
+    height:50px;
+    background-color:rgb(86, 32, 213);
+    color:white;
+    text-transform: uppercase;
+    border-radius:10px;
+    border:none;
+    font-weight: bold;
+}
+#phoneName{
+    width:70%;
+    margin-left:15%;
+    display: flex;
+    align-items: center;
+    font-size:4rem;
+    justify-content: center;
+    color:#adaeb0;
+     font-family:Arial, Helvetica, sans-serif;
+}
+#description{
+    width:60%;
+    margin-left:20%;
+    padding: 10px 40px;
+    font-size:1.25rem;
+    text-align:center;
+    color:#adaeb0;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.7rem;
+    letter-spacing: 0.05rem;
+   
+}
+#buyBtn{
+    width:100px;
+    height:50px;
+    background-color:rgb(86, 32, 213);
+    color:white;
+    text-transform: uppercase;
+    border-radius:10px;
+    border:none;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:45%;
+    margin-top:20px;
+
+}
+.phnImage{
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    top:60%;
+    left:15%;
+
+}
+.searchDiv{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 28, 28);
+    margin-top:25%;
+    padding-bottom:10%;
+}
+#searchHeading{
+    width:70%;
+    height:auto;
+    /* margin-left:100px; */
+    margin-top:25%;
+    display: flex;
+    align-items: center;
+    font-size:2.5rem;
+    justify-content: center;
+    color:#adaeb0;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+ 
+}
+.Searchbar{
+   display: flex;
+   flex-direction: row;
+}
+.Searchbar input{
+    margin-top:60px;
+    width:400px;
+    height:50px;
+    border-radius: 10px;
+    border:1px solid #adaeb0;
+    color:#adaeb0;
+    font-size: 1.25rem;
+    padding-left:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(10, 9, 9);
+}
+.Searchbar button{
+    margin-top:60px;
+    width:100px;
+    margin-left:10px;
+    text-align: center;
+    height:50px;
+    border:none;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    font-family:Arial, Helvetica, sans-serif; 
+    background-color:rgb(86, 32, 213);
+    color:white;
+}
+
+.hashTag{
+    font-weight: bolder;
+   padding-top:100px;
+   transform: rotate(45deg);
+    color:black;
+    text-align: center;
+    font-size:3rem;
+}
+
+#searchBtn{
+    cursor:pointer;
+}
+.phnImgDiv{
+    /* position: relative; */
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    flex-wrap:wrap;
+    background-color: rgb(30, 28, 28);
+
+}
+
+.parent{
+    width:30%;
+    height:500px;
+    background-color: rgb(27, 26, 26);
+    box-shadow:0px 0px 18px 17px rgba(0,0,0,0.15);
+    display:flex;
+    flex-direction:column;
+    color:#adaeb0;
+    font-size:1.25rem;
+    font-family:Arial, Helvetica, sans-serif;
+    gap:10px;
+    justify-content: center;
+    align-items: center;   
+    border-radius:10px; 
+}
+.phnDetails{
+    width:80%;
+    height:auto;
+    margin-top:10px;
+color:#adaeb0;
+font-size:1.2rem;
+font-family:Arial, Helvetica, sans-serif;
+   text-align:center;
+   margin-left:10px;
+   line-height:1.8rem;
+
+}
+
+.image{
+    width:150px;
+    height:200px;
+    border-radius:10px;
+    margin-bottom:10px;
+    /* position:absolute; */
+ } 
+ .phoneName{
+    margin-top:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1.5rem;
+    font-weight: bold;
+ }
+ .showDetails{
+    position:relative;
+    margin-top:20px;
+    width:180px;
+    margin-left:10px;
+    margin-bottom:10px;
+    text-align: center;
+    height:50px;
+    border:none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family:Arial, Helvetica, sans-serif; 
+    background-color:rgb(86, 32, 213);
+    color:white;
+    cursor: pointer;
+ }
+ .detailsContainer{
+    position:absolute;
+    top:105rem;
+    left:33%;
+    width:500px;
+    height:600px;
+    background-color: rgb(27, 26, 26);
+    box-shadow:0px 0px 18px 17px rgba(0,0,0,0.15);
+    display:flex;
+    flex-direction:column;
+    color:#adaeb0;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    gap:10px;
+    justify-content: center;
+    align-items: center;   
+    border-radius:10px; 
+    line-height: 1.5rem;
+     position: relative;
+   
+ } 
+ .closeBtn{
+    cursor: pointer;
+ width:70px;
+ height:50px;
+ background-color: rgb(211, 25, 25);
+ color:white;
+ border-radius:10px;
+ border:none;
+ font-weight: bold;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ text-transform: uppercase;
+ }
+/* 
+.footer{
+    position:absolute;
+    overflow-y: hidden;
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(21, 35, 47);
+}
+.footHeading{
+    font-weight: bold;
+    text-align: center;
+    font-size:1.5rem;
+    line-height: 1rem;
+    color:black;
+    margin-top:20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#copyRight{
+    text-align: center;
+    color:black;
+    margin-top:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+.icons{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 2rem;
+    justify-content: center;
+    gap:40px;
+    margin-top:2.5%;
+    margin-bottom:100px;
+} */
